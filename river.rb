@@ -7,5 +7,8 @@ class River
     @fishes = fishes
   end
 
+  def lose_fish
+  return @fishes.pop()
+  end
 
 end
