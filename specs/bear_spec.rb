@@ -17,4 +17,8 @@ class BearTest < MiniTest::Test
     assert_equal("Polar", @bear.type)
   end
 
+  def test_bear_has_empty_estomach
+    assert_equal(0, @bear.stomach.length)
+  end
+
 end
