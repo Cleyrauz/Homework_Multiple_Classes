@@ -8,11 +8,15 @@ class Bear
     @stomach = []
   end
 
-  def eat_fish()
+  def eat_fish(fish)
     @stomach.push(fish)
   end
 
-  def can_roar()
+  def can_roar
     return "Growl!"
+  end
+
+  def food_count
+    return @stomach.length
   end
 end

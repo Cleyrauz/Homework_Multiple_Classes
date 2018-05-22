@@ -30,4 +30,8 @@ class RiverTest < MiniTest::Test
     assert_equal(2, @river.fishes.length)
   end
 
+  def test_fish_count
+    assert_equal(3, @river.fish_count)
+  end
+
 end
